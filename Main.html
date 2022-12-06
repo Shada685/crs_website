@@ -1,0 +1,918 @@
+<!doctype >
+<html dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="generator" content="Odoo"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<title></title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link type="text/css" rel="stylesheet" href="web/assets/748-ae0711e/web.assets_common.min.css"data-asset-bundle="web.assets_common" data-asset-version="ae0711e"/>
+    <link type="text/css" rel="stylesheet" href="web/assets/761-e5cac50/web.assets_frontend.min.css" data-asset-bundle="web.assets_frontend" data-asset-version="e5cac50"/>      
+   <link rel="stylesheet" href="/crs_website/static/src/css/responsive.css"/>
+   <link rel="stylesheet" href="/crs_website/static/src/css/owl.css"/>
+<script defer="defer" type="text/javascript" src="web/assets/680-722bdb5/web.assets_common_minimal.min.js" data-asset-bundle="web.assets_common_minimal" data-asset-version="722bdb5"></script>
+<script defer="defer" type="text/javascript" src="web/assets/681-19e979c/web.assets_frontend_minimal.min.js" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="19e979c"></script>
+<script defer="defer" type="text/javascript" data-src="web/assets/750-9a427e4/web.assets_common_lazy.min.js" data-asset-bundle="web.assets_common_lazy" data-asset-version="9a427e4"></script>
+<script defer="defer" type="text/javascript" data-src="web/assets/760-07b146b/web.assets_frontend_lazy.min.js" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="07b146b"></script>
+<link type="text/css" rel="stylesheet" href="web/assets/719-974eab6/crs_website.survey_assets.min.css" data-asset-bundle="crs_website.survey_assets" data-asset-version="974eab6"/>
+<script type="text/javascript" src="web/assets/718-974eab6/crs_website.survey_assets.min.js" data-asset-bundle="crs_website.survey_assets" data-asset-version="974eab6"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="/crs_website/static/src/css/responsive.css"/>
+<link rel="shortcut icon" href="/crs_website/static/images/icons/crs_1_43x43.png" type="image/x-icon"/>
+<link rel="icon" type="image/png" href="/crs_website/static/images/icons/crs_1_43x43.png" sizes="32x32"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<style>
+.rtl  .owl-carousel.owl-rtl {
+direction: unset !important;
+}
+</style>
+</head>
+    <body class="">
+        <div id="wrapwrap" class="  page-wrapper ltr">
+            <header class="main-header header-style-one">
+                    <style>
+                        .ltr .main-header .nav-outer {
+                            float: right;  
+                        }
+                    </style>
+                <div class="header-upper">
+                    <div class="auto-container clearfix" >
+                        <div class="pull-left logo-box">
+                            <div class="logo"><a href="/en/"><img src="/crs_website/static/images/logomain.png" style="width: 150px;" loading="lazy"/></a></div>
+                        </div>
+                        <div class="nav-outer pull-right clearfix"  style="background-color: rgb(186, 190, 190);">
+                            <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                            <nav class="main-menu navbar-expand-md">
+                                <div class="navbar-header">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix" >
+                                    <li class=" dropdown"><a href="#">متجر CRS</a>
+                                            <ul>
+                                                <li><a href="/en/alriyadh"> reyad</a>
+                                            </li>
+                                                <li><a href="/en/aldammam">الدمام</a>
+                                                                                        </li>
+                                                <li><a href="/en/altaif"> الطائف</a>
+                                                </li>
+                                            </ul>
+                                       </li>
+                                    <li class=" dropdown"><a href="#">من نحن</a>
+                                            <ul>
+                                                <li><a href="/en/aboutus" dir="ltr"> عن CRS</a></li>
+                                                <li><a href="/en/our-services">خدماتنا </a></li>
+                                                <li><a href="/en/features">مميزاتنا</a></li>
+                                            </ul>
+                                    </li>
+                                        <li><a href="/en/contactus">تواصل معنا</a></li>
+                 <li class="dropdown ">
+                    <a href="#">
+                        English (US)
+                       </a>
+                       <ul>
+                        <li>
+                            <a href="/" class="dropdown-item js_change_lang" data-url_code="ar">
+                                <span> الْعَرَبيّة</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/en/" class="dropdown-item js_change_lang" data-url_code="en">
+                                <span>English (US)</span>
+                            </a>
+                        </li>
+                    </ul>
+                       </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="outer-box clearfix">
+                                <div class="btn-box mr-3">
+                                    <a href="/en/contactus" class="theme-btn btn-style-one"><span class="txt">اطلب عرض عن النظام</span></a>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="/web/login" class="theme-btn btn-style-one"><span class="txt">  الدخول</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sticky-header">
+                    <div class="auto-container clearfix">
+                        <div class="logo">
+                            <a href="/en/" title=""><img src="/crs_website/static/images/logomain.png" style="width: 150px" loading="lazy"/> </a>
+                        </div>
+                        <div class="pull-right">
+                            <nav class="main-menu">
+                            </nav>
+                            <div class="outer-box clearfix">
+                                <a href="#" class="theme-btn btn-style-two"><span class="txt">اطلب عرض عن النظام</span></a>
+                                <a href="/web/login" class="theme-btn btn-style-two"><span class="txt">  الدخول</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu">
+                    <div class="menu-backdrop"></div>
+                    <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+                    <nav class="menu-box">
+                        <div class="nav-logo"></div>
+                        <div class="menu-outer"></div>
+                    </nav>
+                </div>
+            </header>
+        
+        <div id="wrap" class="page-wrapper">
+        <style>
+              .owl-carousel.owl-rtl {
+                direction: unset !important;
+                }
+                .ltr .owl-carousel.owl-rtl {
+                    direction: rtl !important;
+                }
+        </style>
+        <section class="banner-section-four">
+            <div class="main-slider-carousel owl-carousel owl-theme">
+                <div class="slide" style="background-image: url(/crs_website/static/images/new-images/background1.jpg)">
+                    <div class="dotted-layer" style="background-image: url(/crs_website/static/images/main-slider/)"></div>
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="content-column text-center col-lg-12 col-md-12 col-sm-12">
+                                <div class="inner-column">
+                                    <div class="title"><h1>CRS أحدث نظام المبيعات</h1></div>
+                                    <div class="btns-box">
+                                        <a href="/en/aboutus" class="theme-btn btn-style-eight"><span class="txt">اطلب نسختك الان</span></a>
+                                        <a href="/en/contactus" class="theme-btn btn-style-nine"><span class="txt">تواصل معنا</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url(/crs_website/static/images/new-images/2.jpg)">
+                    <div class="dotted-layer" style="background-image: url(/crs_website/static/images/main-slider/)"></div>
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="content-column text-center col-lg-12 col-md-12 col-sm-12">
+                                <div class="inner-column">
+                                    <div class="title"><h1>CRS أحدث نظام المبيعات</h1></div>
+                                    <div class="btns-box">
+                                        <a href="/en/aboutus" class="theme-btn btn-style-eight"><span class="txt">اطلب نسختك الان</span></a>
+                                        <a href="/en/contactus" class="theme-btn btn-style-nine"><span class="txt">تواصل معنا</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url(/crs_website/static/images/new-images/3.jpg)">
+                    <div class="dotted-layer" style="background-image: url(/crs_website/static/images/main-slider/)"></div>
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="content-column text-center col-lg-12 col-md-12 col-sm-12">
+                                <div class="inner-column">
+                                    <div class="title"><h1>CRS أحدث نظام المبيعات</h1></div>
+                                    <div class="btns-box">
+                                        <a href="/en/aboutus" class="theme-btn btn-style-eight"><span class="txt">اطلب نسختك الان</span></a>
+                                        <a href="/en/contactus" class="theme-btn btn-style-nine"><span class="txt">تواصل معنا</span></a>
+                                    </div>
+                                </div>
+                            </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+              <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+              </defs>
+              <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7"></use>
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)"></use>
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)"></use>
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff"></use>
+              </g>
+              </svg>
+            </div>
+        </section>
+        <section class="services-section style-two">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="service-block style-two col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="color-layer"></div>
+                            <div class="pattern-layer-one" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="icon-box">
+                                <span class=""><img src="/crs_website/static/images/icons/support.png" width="50" alt="support"></span>
+                            </div>
+                            <h5><a href="/en/our-services">	الدعم الفني والصيانة</a></h5>
+                            <a href="/en/our-services" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                        </div>
+                    </div>
+                    <div class="service-block style-two col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+                            <div class="color-layer"></div>
+                            <div class="pattern-layer-one" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="pattern-layer-two" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="icon-box">
+                                <span class=""><img src="/crs_website/static/images/icons/consulting.png" width="50" alt="consulting"></span>
+                            </div>
+                            <h5><a href="/en/our-services">الاستشارات والتحديث</a></h5>
+                        <a href="/en/our-services" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                        </div>
+                    </div>
+                    <div class="service-block style-two col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInRight" data-wow-delay="150ms" data-wow-duration="1500ms">
+                            <div class="color-layer"></div>
+                            <div class="pattern-layer-one" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="pattern-layer-two" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="icon-box">
+                                <span class=""><img src="/crs_website/static/images/icons/configuration.png" width="50" alt="configuration">
+                            </div>
+                            <h5><a href="/en/our-services">التهيئة والبرمجة</a></h5>
+                            <a href="/en/our-services" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                        </div>
+                    </div>
+                    <div class="service-block style-two col-lg-3 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="color-layer"></div>
+                            <div class="pattern-layer-one" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="pattern-layer-two" style="background-image: url(/crs_website/static/images/icons/service-pattern-2.png)"></div>
+                            <div class="icon-box">
+                                <span class=""><img src="/crs_website/static/images/icons/training.png" width="50" alt="training">
+                                </div>
+                            <h5><a href="/en/our-services">	التركيب والتدريب</a></h5>
+                            <a href="/en/our-services" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section style-two">
+            <div class="circle-layer"></div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner-column text-center">
+                            <div class="image titlt" data-tilt="" data-tilt-max="1">
+                                <img src="/crs_website/static/images/services/1.png" width="550"  alt="" loading="lazy" style="padding-right: 10%; background-color: transparent;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner-column">
+                            <div class="sec-title">
+                                
+                              <center>  <div class="title" style="text-transform: none; font-size: 30px;">About Us</div></center>
+                                <h2 class=""></h2>
+                            </div>
+                            <div class="text text-justify">نظام متكامل لإدارة المطاعم والمقاهي باختلاف أحجامها وفروعها، بمستوى تقني احترافي يلبي جميع الاحتياجات، ويساهم في زيادة الأرباح عن طريق إدارة جميع عمليات المطعم أو المقهى من الطلبات إلى المخزون، كما يقدم النظام نموذجًا مميزًا في إدارة التكاليف الخاصة بالمطعم بشكل دقيق، ويمكن من خلاله الحصول على تقارير تفصيلية، تحديد ربحية أصناف معينة وأيضًا ربحية المطعم ككل، كما يضمن السرية والخصوصية التامة.
+    نظام CRS المتكامل هو نظام شامل مصمم لإدارة متكاملة للمطاعم والمقاهي على أعلى المعايير والمستويات، يمكّنك من
+    الحصول على تقارير تفصيلية تساهم في المساعدة لتحليل نشاط عملك بشكل متكامل بهدف تحسين نشاطك التجاري، ويمكنك
+    من إدارة بياناتك المالية، إدارة المخزون، المصروفات وإدارة الموظفين بشكل متكامل.
+    ويمكنك النظام من تحليل بيانات العميل بدقة، وتتبع نشاط الشراء وإعداد خطط للإنتاج بشكل أفضل وتسويق منتجاتك، بدقة
+    وكفاءة.
+    ويمكنك نظام CRS المتكامل من تقديم أفضل خدمة لعملائك وتوفير طلباتهم بأسرع وقت من خلال ميزة إرسال الطلبات من
+    الكاشير إلى المختص بتجهيز طلبك، والذي يصله الطلب ليقوم بتجهيز طلب الزبائن في أسرع وقت، مما يساهم في زيادة
+    الإنتاجية وكسب رضى زبائنك وينتج عنه نمو نشاطك التجاري وزيادة مضمونة في مبيعاتك.
+                                </div>
+                            <a href="/en/aboutus" class="theme-btn btn-style-two"><span class="txt">Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section-two.style-two py-4 text-center">
+        <div class="container">
+          <div class="row mt64 mb48">
+            <div class="col-lg-12 ">
+                <div class="sec-title centered">
+            <h2 class="display-3">متوافق مع جميع الاجهزة  </h2>
+            <h4 class="mb16 mt-3">لا حاجة للتثبيت أو استخدام جهاز محدد. </h4>
+                </div>
+            </div>
+            <div class="col-md-3 mt32 mb32">
+              <img src="/crs_website/static/images/70.png" class="d-block mx-auto mb16" alt="" loading="lazy" />
+             <div class="text-center">
+           <h6>
+               اجهزة  الوحية
+            </h6>
+            </div>
+            </div>
+            <div class="col-md-3 mt32 mb32">
+              <img src="/crs_website/static/images/60.png" class="d-block mx-auto mb16" alt="" loading="lazy"/>
+             <div class="text-center">
+           <h6>
+             اجهزة مكتبية
+            </h6>
+            </div>
+            </div>
+            <div class="col-md-3 mt32 mb32">
+              <img src="/crs_website/static/images/50.png" class="d-block mx-auto mb16" alt="" loading="lazy" />
+            <div class="text-center">
+              <h6>
+               أجهزة حاسوب محمولة
+                </h6>
+            </div>
+            </div>
+            <div class="col-md-3 mt32 mb32">
+              <img src="/crs_website/static/images/40.png" class="d-block mx-auto mb16" alt="" loading="lazy"/>
+            <div class="text-center">
+                <h6>
+                أجهزة نقاط البيع
+            </h6>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="pricing-section style-three">
+        <div class="pattern-layer" style="background-image: url(/crs_website/static/images/background/pattern-1.png)"></div>
+        <div class="auto-container">
+       <div class="row">
+           <div class="col-md-6 " style="z-index:10000;">
+                <iframe width="560" height="315" style="z-index:10000;background:#fff;padding: 12px;" src="https://www.youtube-nocookie.com/embed/mZplazwHHro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+           </div>
+           <div class="col-md-6">
+               <p style="font-size: 20px;">نظام متكامل لإدارة المطاعم والمقاهي باختلاف أحجامها وفروعها، بمستوى تقني احترافي يلبي جميع الاحتياجات، ويساهم في زيادة الأرباح عن طريق إدارة جميع عمليات المطعم أو المقهى من الطلبات من الكاشيير وصولا الى المطبخ و إلى المخزون، كما يقدم النظام نموذجًا مميزًا في إدارة التكاليف الخاصة بالمطعم بشكل دقيق، ويمكن من خلاله الحصول على تقارير تفصيلية، تحديد ربحية أصناف معينة وأيضًا ربحية المطعم ككل، كما يضمن السرية والخصوصية التامة.
+    </p>
+           </div>
+       </div>
+        </div>
+    </section>
+        <section class="services-section-two style-two">
+            <div class="auto-container">
+                <div class="sec-title">
+                    <center>  <div class="title" style="text-transform: none; font-size: 30px;">الميزات</div></center>
+                    <h2 class=""></h2>
+                </div>
+                <div class="inner-container">
+                    <div class="clearfix">
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-pie-chart"></span>
+                                </div>
+                                <h5><a href="#">سهلة الاستخدام</a></h5>
+                                <div class="text">اضبط الإعدادات في دقائق، وابدء البيع في أسرع وقت.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-line-chart"></span>
+                                </div>
+                                <h5><a href="#">متوافق مع أي جهاز</a></h5>
+                                <div class="text">لا حاجة للتثبيت أو استخدام جهاز محدد</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-bar-chart"></span>
+                                </div>
+                                <h5><a href="#">كل شيء يحتاجه مطعمك او كافيك </a></h5>
+                                <div class="text">يعتمد نظام CRS المتكامل على واجهة ذكية يمكن لأي موظف او كاشير استخدامها دون صعوبة</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-search-1"></span>
+                                </div>
+                                <h5><a href="#">متصل بالشبكة أو غير متصل</a></h5>
+                                <div class="text">يمكن الاعتماد على نظام CRS في نقاط البيع حتى في حال انقطاع الانصال</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-gear"></span>
+                                </div>
+                                <h5><a href="#">
+                                    متوافق مع متطلبات هيئة الزكاة والضريبة
+                                    </a></h5>
+                                <div class="text">يوفر نظام CRS  المتكامل السجلات المتعلقة بضريبة القيمة المضافة</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-cloud-computing"></span>
+                                </div>
+                                <h5><a href="#">الفاتورة الالكترونية</a></h5>
+                                <div class="text">يوفر نظام CRS المتكامل الفاتورة الالكترونية مع إمكانية الاحتفاظ بها لضمان الوصول الآمن إليها في جميع الأوقات.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-6 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-cloud-computing"></span>
+                                </div>
+                                <h5><a href="#"> تعدد الفروع </a></h5>
+                                <div class="text">يدعم نظام CRS المتكامل إمكانية إدارة مؤسساتك بشكل كامل بجميع فروعها واداراتها </div>
+                            </div>
+                        </div>
+                        <div class="service-block-two style-two col-lg-6 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="color-layer"></div>
+                                <div class="icon-one" style="background-image: url(/crs_website/static/images/icons/icon-1.png)"></div>
+                                <div class="icon-two" style="background-image: url(/crs_website/static/images/icons/icon-2.png)"></div>
+                                <div class="icon-three" style="background-image: url(/crs_website/static/images/icons/icon-19.png)"></div>
+                                <div class="icon-four" style="background-image: url(/crs_website/static/images/icons/icon-4.png)"></div>
+                                <div class="icon-box">
+                                    <span class="icon flaticon-cloud-computing"></span>
+                                </div>
+                                <h5><a href="#">  تحكم كامل بالصلاحيات  </a></h5>
+                                <div class="text">يوفر نظام CRS المتكامل إمكانية التحكم بكافة الأقسام والميزات و إمكانية التحكم بصلاحيات </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing-section style-two">
+            <div class="pattern-layer" style="background-image: url(/crs_website/static/images/background/pattern-21.png)"></div>
+            <div class="auto-container">
+                <div class="sec-title centered">
+                    <div class="title">الباقات</div>
+                    <h2 class="">جدول الباقات المتوفرة</h2>
+                </div>
+                <div class="pricing-tabs tabs-box">
+                    <div class="tabs-content">
+                        <div class="tab active-tab" id="prod-monthly">
+                            <div class="content">
+                                <div class="row clearfix" style="direction:ltr">
+                                    <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title">
+     باقة  start up  </div>
+                                            <div class="price">
+                                                 المثالية لمشروعك أو شركتك الناشئة
+                                                   ١٦٠ ر٠س  شهريا</div>
+                                            <ul class="price-list">
+                                                <li>  تدفع ستة أشهر مقدما
+                                             غير شامل للضريبة</li>
+                                            </ul>
+                                            <a href="/en/pricing_1" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                        <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title"> باقة تطوير </div>
+                                            <div class="price">
+                                                الباقة المثالية لتطوير شركتك الصغيرة
+                                                مطاعم ومقاهي صغيره
+                                            ٣٠٠  ر٠س  شهريا          </div>
+                                            <ul class="price-list">
+                                                <li> تدفع ستة أشهر مقدما
+        غير شامل للضريبة</li>
+                                            </ul>
+                                            <a href="/en/pricing_2" class="btn-price theme-btn btn-style-eight">
+                                             <span class="txt">Read More</span>
+                                                </a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                        <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title"> باقة بزنس مميز
+    </div>
+                                            <div class="price">
+                                                 الباقة مثالية لتصبح شركتك المميزة أكثر تميُزًا
+                                                مطاعم ومقاهي متوسطه
+       ٣٧٠  ر٠س  شهريا</div>
+                                            <ul class="price-list">
+                                                <li>تدفع ستة أشهر مقدما
+        غير شامل للضريبة</li>
+                                            </ul>
+                                            <a href="/en/pricing_3" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                    <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title">  باقة CRS الاحترافية    </div>
+                                            <div class="price">
+                                               باقة صُنعت خصيصًا لشركتك والتي يتم فيها تعديل نظام CRS بما يتوافق مع احتياجات الشركة.  </div>
+                                            <ul class="price-list">
+                                                <li>    </li>
+                                            </ul>
+                                            <a href="/en/pricing_4" class="btn-price theme-btn btn-style-eight">
+                                                <span class="txt">Read More</span>
+                                                </a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab" id="prod-yearly">
+                            <div class="content">
+                                <div class="row clearfix" style="direction:ltr">
+                                    <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title">
+           start up  باقة</div>
+                                            <div class="price">
+                                                 المثالية لمشروعك أو شركتك الناشئة
+                                                   ١٦٠ ر٠س  شهريا</div>
+                                            <ul class="price-list">
+                                                <li>  تدفع ستة أشهر مقدما
+                                             غير شامل للضريبة</li>
+                                                            </ul>
+                                            <a href="/en/pricing_1" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                        <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title"> باقة تطوير </div>
+                                            <div class="price">
+                                                الباقة المثالية لتطوير شركتك الصغيرة
+                                                مطاعم ومقاهي صغيره
+                                            ٣٠٠  ر٠س  شهريا          </div>
+                                            <ul class="price-list">
+                                                <li> تدفع ستة أشهر مقدما
+        غير شامل للضريبة</li>
+                                            </ul>
+                                            <a href="/en/pricing_2" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                        <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title"> باقة بزنس مميز
+    </div>
+                                            <div class="price">
+                                                 الباقة مثالية لتصبح شركتك المميزة أكثر تميُزًا
+                                                مطاعم ومقاهي متوسطه
+       ٣٧٠  ر٠س  شهريا</div>
+                                            <ul class="price-list">
+                                                <li>تدفع ستة أشهر مقدما
+        غير شامل للضريبة</li>
+                                            </ul>
+                            <a href="/en/pricing_3" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                    <div class="price-block col-lg-3 col-md-6 col-sm-12">
+                                        <div class="inner-box">
+                                            <div class="title">  باقة CRS الاحترافية    </div>
+                                            <div class="price">
+                                               باقة صُنعت خصيصًا لشركتك والتي يتم فيها تعديل نظام CRS بما يتوافق مع احتياجات الشركة.  </div>
+                                            <ul class="price-list">
+                                                <li>    </li>
+                                            </ul>
+                                            <a href="/en/pricing_4" class="btn-price theme-btn btn-style-eight"><span class="txt">Read More</span></a>
+                                            <div class="price-pattern-layer"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons-outer">
+                        <ul class="tab-buttons clearfix">
+                            <li data-tab="#prod-monthly" class="tab-btn active-btn">شهريا</li>
+                            <li data-tab="#prod-yearly" class="tab-btn">سنويا</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-section">
+            <div class="pattern-layer"></div>
+            <div class="auto-container">
+                <div class="sec-title">
+                    <div class="clearfix">
+                        <div class="sec-title centered">
+                            <div class="title">أدراتنا</div>
+                            <h2 class="">أنظمةCRS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="news-block style-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image">
+                                <img src="/crs_website/static/images/store-g8f26afd4d_1280.jpg" alt="" style="     height: 299px; " loading="lazy"/>
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="/en/warehouse" class="icon flaticon-unlink"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="/en/news-details-1.html">Inventory – إدارة المستودعات و المخزون</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block style-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image">
+                                <img src="/crs_website/static/images/office-g6d11523c8_1280.jpg" alt="" style="     height: 299px; " loading="lazy"/>
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="/en/accounting" class="icon flaticon-unlink"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="/en/accounting">Accounting – إدارة الحسابات</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block style-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image">
+                                <img src="/crs_website/static/images/shopping-gfa9e176ce_1280.jpg" alt="" style="     height: 299px; " loading="lazy"/>
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="/en/purchases" class="icon flaticon-unlink"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="/en/purchases">Purchase - إدارة المشتريات</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block style-two col-lg-6 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image">
+                                <img src="/crs_website/static/images/istockphoto-1352650187-170667a.jpg" alt="" style="     height: 299px; " loading="lazy"/>
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="/en/hr" class="icon flaticon-unlink"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="/en/hr">HR – إدارة الموارد البشرية</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block style-two col-lg-6 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="image">
+                                <img src="/crs_website/static/images/calculator-gd41b7e65c_1280.jpg" alt="" style="     height: 299px; " loading="lazy"/>
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="/en/expenses" class="icon flaticon-unlink"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h5><a href="/en/expenses">Expenses - إدارة المصروفات</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients-section">
+            <div class="auto-container">
+                <div class="sponsors-outer">
+                    <ul class="sponsors-carousel owl-carousel owl-theme">
+                        <li class="slide-item" style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/1.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/2.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item" style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/3.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item" style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/4.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item" style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/5.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item " style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/6.png" alt="" loading="lazy"/></a></figure></li>
+                        <li class="slide-item" style="margin:10px"><figure class="image-box"><a href="#"><img src="/crs_website/static/images/clients/7.png" alt="" loading="lazy"/></a></figure></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+            <style>
+                .contact-form .form-group {
+                    text-align: unset;
+                }
+            </style>
+            <span class="hidden" data-for="contactus_form" data-values="{&#39;email_to&#39;: &#39;odaialalimi41@gmail.com&#39;, &#39;name&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;, &#39;email_from&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;subject&#39;: &#39;&#39;}"></span>
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_text_block pt40 pb40 o_colored_level " data-snippet="s_text_block">
+                    <div class="container s_allow_columns">
+                        <div class="sec-title centered">
+                            <div class="title">إحصل على نسختك التّجريبيّة من نظام CRS لنقاط البيع</div>
+                        </div>
+                        <div class="row">
+                                <section class="s_website_form" data-vcss="001" data-snippet="s_website_form">
+                                    <div class="container">
+                                        <div class="contact-form">
+                                            <form id="contactus_form" action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-model_name="mail.mail" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-pre-fill="true">
+                                            <div class="row clearfix">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                    <span class="icon flaticon-user-2"></span>
+                                                    <input type="text" name="name" placeholder="الاسم " required=""/>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                        <span class="icon flaticon-phone-call"></span>
+                                                        <input type="text" name="phone" placeholder="رقم الهاتف" required=""/>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                    <span class="icon flaticon-big-envelope"></span>
+                                                    <input type="email" name="email_from" placeholder="البريد الالكتروني" required=""/>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                                            <span class="icon flaticon-notepad"></span>
+                                                            <input id="contact5" placeholder="الموضوع" type="text" class="form-control s_website_form_input" name="subject" required=""/>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                    <span class="icon flaticon-message"></span>
+                                                    <textarea class="form-control s_website_form_input" name="message" placeholder="الرسالة"></textarea>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                    <label>Contact Us Through</label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                          Email
+                                                        </label>
+                                                      </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                          Phone
+                                                        </label>
+                                                      </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            بتحديد هذا المربع ، أؤكد أنني قد قرأت وفهمت وأوافق على البنود والشروط
+                                                        </label>
+                                                      </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            باستخدامك للمواقع، فإنك توافق على جمعنا لبياناتك الشخصية واستخدامها وتخزينها بالأسلوب المبين في سياسة الخصوصية
+                                                        </label>
+                                                      </div>
+                                                </div>
+                                                <div class="form-group col-12 s_website_form_submit" data-name="Submit Button">
+                                                    <div style="width: 200px;" class="s_website_form_label"></div>
+                                                    <a href="#" role="button" class="theme-btn btn-style-two s_website_form_send">
+                                                        <span class="txt">Send Now</span>
+                                                    </a>
+                                                    <span id="s_website_form_result"></span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        </div>
+                                    </div>
+                                </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                    </div>
+                </main>
+            <div id="footer" class="oe_structure main-footer style-three">
+                <div id="wrap">
+                    <div class="pattern-layer" style="background-image: url(/crs_website/static/images/background/pattern-3.png)"></div>
+                    <div class="pattern-layer-two" style="background-image: url(/crs_website/static/images/background/pattern-4.png)"></div>
+                    <div class="pattern-layer-three" style="background-image: url(/crs_website/static/images/background/pattern-5.png)"></div>
+                    <div class="auto-container">
+                        <div class="widgets-section">
+                            <div class="row clearfix">
+                                <div class="big-column col-lg-12 col-md-12 col-sm-12">
+                                    <div class="row clearfix">
+                                        <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                                            <div class="footer-widget logo-widget">
+                                                <div class="logo">
+                                                    <a href="/en/"><img src="/crs_website/static/images/logomain.png" style="width: 150px;filter: brightness(0) invert(1);                                                         " loading="lazy"/></a>
+                                                </div>
+                                                <div class="text">نظام CRS هو حل قوي مصمم لإدارة متكاملة للمطاعم والكافيات على املك بشكل متكامل لهدف تحسين نشاطك التجاري، </div>
+                                                <ul class="social-box">
+                                                    <li><a href="#" class="fa fa-facebook-f"></a></li>
+                                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                                    <li><a href="#" class="fa fa-google"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                                            <div class="footer-widget links-widget">
+                                                <h4>خدماتنا</h4>
+                                                <ul class="list-link">
+                                                    <li> 	الدعم الفني والصيانة</li>
+                                                    <li>	 الاستشارات والتحديث</li>
+                                                    <li> التهيئة والبرمجة</li>
+                                                    <li> 	التركيب والتدريب</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                                            <div class="footer-widget links-widget">
+                                                <h4>بيانات التواصل</h4>
+                                                <ul class="list-style-two">
+                                                    <li><span class="icon flaticon-email"></span><a href="mailto:CRS@gmail.com">info@poscrs.com</a></li>
+                                                    <li><span class="icon flaticon-maps-and-flags"></span>السعودية</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                          <div class="row">
+                          <div class="col-4">
+                             <p>المسوق الرقمي</p>
+                             <a href="http://www.unimarkme.com/"><img src="/crs_website/static/images/unimark.png" style="width: 146px;filter: brightness(0) invert(1);                                                         " loading="lazy"/></a>
+                          </div>
+                          <div class="col-4">
+                           <p>المطور التقني</p>
+                               <a href="http://www.crs.com/"> <img src="/crs_website/static/images/unicom.png" style="width: 146px;filter: brightness(0) invert(1);                                                         " loading="lazy"/></a>
+                          </div>
+                          <div class="col-4">
+                                <p>الدعم الفني</p>
+                      <a href="http://www.unimarkme.com/"><img src="/crs_website/static/images/proserve.png" style="width: 130px;filter: brightness(0) invert(1);" loading="lazy"/></a>
+                          </div>
+                          </div>
+                        <div class="copyright">
+                            CRS  جميع الحقوق محفوظة © 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="search-popup">
+            <button class="close-search style-two"><span class="flaticon-multiply"></span></button>
+            <button class="close-search"><span class="fa fa-arrow-up"></span></button>
+            <form method="post" action="/en/">
+                <div class="form-group">
+                    <input type="search" name="search-field" value="" placeholder="Search Here" required=""/>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="back-to-top scroll-to-target show-back-to-top" data-target="html">TOP</div>
+            <script type="text/javascript" src="/crs_website/static/src/js/wow.js"></script>
+            <script type="text/javascript" src="/crs_website/static/src/js/script.js"></script>
+            
+            </div>
+
+</body>
+</html>
